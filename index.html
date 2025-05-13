@@ -1,0 +1,154 @@
+<!DOCTYPE html>
+<html lang="fa" dir="rtl">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>سنگ مزار کریمی</title>
+  <style>
+    body {
+      margin: 0;
+      font-family: sans-serif;
+      background: #1e2a38;
+      color: white;
+    }
+    header {
+      background: #111;
+      padding: 1rem;
+      text-align: center;
+      font-size: 1.5rem;
+    }
+    nav {
+      background: #222;
+      padding: 0.5rem 1rem;
+      text-align: center;
+    }
+    nav a {
+      color: #f3c623;
+      margin: 0 1rem;
+      text-decoration: none;
+      font-weight: bold;
+    }
+    .container {
+      display: grid;
+      grid-template-columns: repeat(auto-fill, minmax(250px, 1fr));
+      gap: 1rem;
+      padding: 2rem;
+    }
+    .card {
+      background: #2e3b4e;
+      border-radius: 12px;
+      overflow: hidden;
+      box-shadow: 0 0 10px rgba(0,0,0,0.3);
+    }
+    .card img {
+      width: 100%;
+      height: 200px;
+      object-fit: cover;
+    }
+    .card-body {
+      padding: 1rem;
+    }
+    .card-title {
+      font-size: 1.1rem;
+      margin-bottom: .5rem;
+    }
+    .price {
+      color: #f3c623;
+      margin-bottom: 1rem;
+    }
+    .btn {
+      background: #d81b60;
+      color: white;
+      padding: .5rem 1rem;
+      border: none;
+      border-radius: 8px;
+      cursor: pointer;
+      text-align: center;
+      display: inline-block;
+    }
+    footer {
+      background: #111;
+      padding: 2rem;
+      text-align: center;
+      font-size: 0.9rem;
+      line-height: 1.8;
+    }
+    .contact {
+      margin-top: 1rem;
+    }
+    .contact-buttons {
+      margin-top: 1rem;
+    }
+    .contact-buttons a {
+      display: inline-block;
+      background-color: #25D366;
+      color: white;
+      padding: 0.5rem 1rem;
+      margin: 0.5rem;
+      border-radius: 8px;
+      text-decoration: none;
+      font-weight: bold;
+    }
+    .contact-buttons a.call {
+      background-color: #007bff;
+    }
+    .contact-buttons a.telegram {
+      background-color: #0088cc;
+    }
+    .contact-buttons a.rubika {
+      background-color: #6f42c1;
+    }
+    .contact-buttons a.instagram {
+      background-color: #e4405f;
+    }
+  </style>
+</head>
+<body>
+  <header>
+    سنگ مزار کریمی
+  </header>
+  <nav>
+    <a href="#products">محصولات</a>
+    <a href="#about">درباره ما</a>
+    <a href="#contact">تماس با ما</a>
+  </nav>
+  <div class="container" id="products">
+    <div class="card">
+      <img src="https://via.placeholder.com/300x200" alt="سنگ مزار">
+      <div class="card-body">
+        <div class="card-title">سنگ مزار مرمر سبز کد 448</div>
+        <div class="price">۵۵٬۰۰۰٬۰۰۰ تومان</div>
+        <div class="btn">مشاهده محصول</div>
+      </div>
+    </div>
+    <div class="card">
+      <img src="https://via.placeholder.com/300x200" alt="سنگ مزار">
+      <div class="card-body">
+        <div class="card-title">سنگ مزار نانو ایرانی 3 ستاره</div>
+        <div class="price">۳۵٬۰۰۰٬۰۰۰ تومان</div>
+        <div class="btn">مشاهده محصول</div>
+      </div>
+    </div>
+  </div>
+  <footer id="about">
+    <strong>اولین ارائه دهنده خدمات سنگ مزار در شهرستان خدابنده با بیش از 30 سال سابقه</strong><br>
+    انواع سنگ مزار ایرانی و خارجی با تضمین کیفیت با حکاکی دستگاه تمام اتوماتیک روز دنیا<br>
+    <div id="contact">
+      برای راهنمایی بیشتر و مشاوره تماس بگیرید (قبل یا حین سفارش):<br>
+      <div class="contact">
+        تماس: 09122429063 - 09127416085 - 02434224186<br>
+        پیام‌رسان‌ها: واتساپ، ایتا، روبیکا، تلگرام<br>
+        آدرس: استان زنجان، شهرستان خدابنده، شهر قیدار، خیابان امام، پایین فرهنگسرای اشراق، جنب داروخانه محرمی<br>
+        پیج اینستاگرام: <a href="https://instagram.com/gheydar_sangemazarekarimi" target="_blank" style="color:#f3c623;">@gheydar_sangemazarekarimi</a>
+      </div>
+      <div class="contact-buttons">
+        <a href="https://wa.me/989122429063" target="_blank">ارسال پیام واتساپ</a>
+        <a class="call" href="tel:09122429063">تماس مستقیم</a>
+        <a class="telegram" href="https://t.me/09122429063" target="_blank">تلگرام</a>
+        <a class="rubika" href="https://rubika.ir/09122429063" target="_blank">روبیکا</a>
+        <a class="instagram" href="https://instagram.com/gheydar_sangemazarekarimi" target="_blank">اینستاگرام</a>
+      </div>
+    </div>
+  </footer>
+</body>
+</html>
